@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    border-color: #1a1e26;
+  }
+  html {
+    scroll-behavior: smooth;
+    background-color: #090a0d;
+    color: #e4e4e7;
+  }
+  body {
+    overflow-x: hidden;
+    word-break: keep-all;
+    overflow-wrap: break-word;
+  }
+}
